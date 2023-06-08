@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Poppins:wght@200;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c6369a334a.js" crossorigin="anonymous"></script>
+    <title>Hannah Payne's Portfolio</title>
+    <nav class="nav-bar">
+        <ul class="nav-links" >
+            <li class="nav-item"><a  href="#about-me">ABOUT ME</a></li>
+            <li class="nav-item"><a href="#projects">PROJECTS</a></li>
+            <li class="nav-item"><a href="#contact-me">CONTACT ME</a></li>
+            <li class="nav-item"><a href="resume.html">RESUME</a></li>
+        </ul>
+    </nav>
+</head>
+<body>
+    <main>
+        <section id="banner">
+            <div class="banner-text-container">
+                <h5>Hello World I'm,</h5>
+                <h1>HANNAH PAYNE</h1>
+                <h5 class="banner-color">Web Developer</h5>
+            
+            <div id="skills">
+                <ul class="skills-ul">
+                    <li><i class="fa-brands fa-css3-alt fa-4x"></i></li>
+                    <li><i class="fa-brands fa-square-js fa-4x"></i></li>
+                    <li><i class="fa-solid fa-code fa-4x"></i></li>
+                    <li><i class="fa-brands fa-github fa-4x"></i></li>
+                </div>
+                </ul>
+            </div>
+        </section>
+        
+        <section id="about-me" class="aboutme-container">
+            <div>
+                <hr  size="2" width="95%" color="#b2b6f4">  
+                <h2 class="aboutme-header">A LITTLE ABOUT ME</h2>
+                <div class="aboutme-text-container">
+                    <img src="./resouces/images/picture.png" alt="a picture of me" class="picture-of-me">
+                    <p>I am a 23 year old working out of utah. I have had an interest in computers and how they work since a young age. 
+                    I have been on the path to becoming a front-end developer for about 8 months. I also enjoy coffee shops, the outdoors
+                    and spending time with my cat.</p>    
+                </div>
+            </div>     
+        </section>
+        
+        <section id="projects">
+            <hr  size="2" width="95%" color="##1e1457">  
+            <h2>PROJECTS</h2>
+                <div class="project-container">
+                    <div class="project-example">
+                        <img class="project-img" src="./resouces/images/Capture.JPG" alt=""> 
+                        <p>A fun pixel art app</p>
+                    </div>
+                    <div class="project-example"> <img class="project-img" src="./resouces/images/featherstoen books.JPG" alt="">
+                       <p>Website for an online bookstore</p>
+                    </div>
+                    <div class="project-example">
+                        <img class="project-img" src="./resouces/images/meditation-app.JPG" alt=""> 
+                        <p>Meditation App</p> 
+                    </div>
+
+                </div>
+        </section>
+        <section id="contact-me">
+            <h2>CONTACT ME</h2>
+            <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+                <label for="Name" class="fcf-label">Your name</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+            </div>
+        <div class="fcf-form-group">
+            <label for="Email" class="fcf-label">Your email address</label>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+            </div>
+            <div class="fcf-form-group">
+                <label for="Subject" class="fcf-label">Subject</label>
+                <div class="fcf-input-group">
+                    <input type="subject" id="Subject" name="Subject" class="fcf-form-control" required>
+                </div>    
+        <div class="fcf-form-group">
+            <label for="Message" class="fcf-label">Your message</label>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+            </div>
+        </div>
+        <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
+        </div>
+            </form>
+        </section>
+    </main>
+</body>
+    <footer>
+        <h6>@Hannah Payne 2023</h6>
+    </footer>
+</html>
